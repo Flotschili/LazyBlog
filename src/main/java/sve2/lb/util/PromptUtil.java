@@ -8,6 +8,6 @@ public class PromptUtil {
     }
 
     public static String enrichPromptSveltekit(String keywords) {
-        return "Write a sveltekit component which contains a blog entry based on the following keywords: " + keywords;
+        return "Write a .md blog which will be embedded in a sveltekit page based on following keywords: " + keywords;
     }
 }

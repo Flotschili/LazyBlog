@@ -11,7 +11,7 @@ public class ConsolePublishService implements PublishService {
     Logger logger = LoggerFactory.getLogger(ConsolePublishService.class);
 
     @Override
-    public void postBlog(String blogpost) {
+    public void postBlog(String blogpost, String keywords) {
         logger.info("Posting blog to console");
         System.out.println(blogpost);
     }

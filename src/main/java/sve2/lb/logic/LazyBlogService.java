@@ -39,8 +39,8 @@ public class LazyBlogService {
         String prompt = enrichPromptSveltekit(keywords);
         blogGenerationService.giveContext(PromptUtil.SystemPrompts.NEURTRAL);
         String blog = blogGenerationService.generateBlog(prompt);
-        publishService.postBlog(blog);
+        publishService.postBlog(blog, keywords);
 
-        return prompt;
+        return blog;
     }
 }

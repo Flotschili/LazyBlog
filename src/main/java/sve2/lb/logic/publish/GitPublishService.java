@@ -22,7 +22,7 @@ public class GitPublishService implements PublishService {
     }
 
     @Override
-    public void postBlog(String blogpost) {
+    public void postBlog(String blogpost, String keywords) {
         // TODO
     }
 

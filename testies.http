@@ -5,4 +5,4 @@ GET localhost:8080
 POST localhost:8080/generate
 Content-Type: application/json
 
-{ "keywords": "Hallo Das Sind Keywords" }
+{ "keywords": "is an orange called orange because it is orange or is the color orange called orange because of the fruit orange" }
