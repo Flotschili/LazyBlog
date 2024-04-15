@@ -2,7 +2,7 @@ GET localhost:8080
 
 ###
 
-GET localhost:8080/generate
+POST localhost:8080/generate
 Content-Type: application/json
 
 { "keywords": "Hallo Das Sind Keywords" }

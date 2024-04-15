@@ -27,6 +27,7 @@ extra["springAiVersion"] = "0.8.1"
 dependencies {
 //    implementation("org.springframework.ai:spring-ai-openai-spring-boot-starter")
     implementation("org.springframework.boot:spring-boot-starter-webflux")
+    implementation("org.netbeans.external:org-eclipse-jgit:RELEASE190")
     compileOnly("org.projectlombok:lombok")
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     annotationProcessor("org.projectlombok:lombok")
